@@ -12,7 +12,7 @@
                            http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
 
     
-    <context:component-scan base-package="demo" use-default-filters="false">
+    <context:component-scan base-package="demo">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
@@ -47,7 +47,7 @@
     </bean>
 
     <!-- 扫描所有的mapper接口实现，让mapper能够自动注入 -->
-    <mybatis:scan base-package="demo.dao"/>
+    <!--<mybatis-spring:scan base-package="demo.dao"/>-->
 
 
 

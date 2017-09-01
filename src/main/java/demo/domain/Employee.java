@@ -2,8 +2,6 @@ package demo.domain;
 
 import java.io.Serializable;
 
-import org.apache.ibatis.type.Alias;
-
 public class Employee implements Serializable{
 
     /**
