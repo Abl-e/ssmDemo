@@ -1,4 +1,5 @@
 -- auto-generated definition
+USE ssm;
 CREATE TABLE employee
 (
   id        INT AUTO_INCREMENT

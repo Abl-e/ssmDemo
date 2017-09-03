@@ -2,6 +2,7 @@ package demo.service;
 
 import demo.dao.EmployeeMapper;
 import demo.domain.Employee;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -13,9 +14,8 @@ import java.util.List;
 @Service
 public class EmployeeService {
 
-    @Resource
+    @Autowired
     private EmployeeMapper employeeMapper;
-
     public List<Employee> getAll(){
         return employeeMapper.getEmps();
     }

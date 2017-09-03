@@ -1,4 +1,5 @@
 -- auto-generated definition
+USE ssm;
 CREATE TABLE department
 (
   id        INT AUTO_INCREMENT

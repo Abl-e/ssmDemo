@@ -5,6 +5,10 @@
 <configuration>
     
     <settings>
+
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <setting name="jdbcTypeForNull" value="NULL"/>
+
         <!-- 开启驼峰命名规则 -->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
         <!-- 延迟加载 -->

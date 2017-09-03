@@ -13,10 +13,6 @@ public class Department implements Serializable{
 	private String departmentName;
 	private List<Employee> emps;
 	
-	
-	
-	
-	
 	public Department(Integer id) {
 		super();
 		this.id = id;

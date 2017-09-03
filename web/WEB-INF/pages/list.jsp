@@ -10,7 +10,7 @@
     <title>Title</title>
 </head>
 <body>
-    <table>
+    <table style="text-align: center">
         <tr>
             <td>id</td>
             <td>lastName</td>
